@@ -1,3 +1,22 @@
+# Useful links:
+
+**Github Page** For Project: https://github.com/KartikPadmanabhan/RegressionModelCoursera
+
+**gh-page branch** for Project Report:   http://kartikpadmanabhan.github.io/RegressionModelCoursera/mtcars.html 
+
+
+## HTML Rendering
+
+We make use of bootstrap to add beauty to html report. To install bootstrap please install it the following way:
+
+```
+library(devtools)
+install_github('rstudio/rmarkdown')
+install.packages('knitr', repos = c('http://rforge.net', 'http://cran.rstudio.org'),
+                 type = 'source')
+install_github('jimhester/knitrBootstrap')
+```
+
 ## Question
 
 Take the mtcars data set and write up an analysis to answer their question using regression models and exploratory data analyses.
