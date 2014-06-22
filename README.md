@@ -17,7 +17,7 @@ install.packages('knitr', repos = c('http://rforge.net', 'http://cran.rstudio.or
 install_github('jimhester/knitrBootstrap')
 ```
 
-## Question
+## Project Goal 
 
 Take the mtcars data set and write up an analysis to answer their question using regression models and exploratory data analyses.
 
