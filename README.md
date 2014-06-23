@@ -29,6 +29,8 @@ options(rstudio.markdownToHTML =
 )
 ```
 
+Reference: http://cran.r-project.org/web/packages/knitrBootstrap/knitrBootstrap.pdf
+
 ## Project Goal 
 
 Take the mtcars data set and write up an analysis to answer their question using regression models and exploratory data analyses.
