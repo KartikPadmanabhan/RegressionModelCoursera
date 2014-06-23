@@ -5,7 +5,7 @@
 **gh-page branch** for Project Report:   http://kartikpadmanabhan.github.io/RegressionModelCoursera/mtcars.html 
 
 
-## HTML Rendering
+# HTML Rendering
 
 We make use of bootstrap to add beauty to html report. To install bootstrap please install it the following way:
 
@@ -15,6 +15,18 @@ install_github('rstudio/rmarkdown')
 install.packages('knitr', repos = c('http://rforge.net', 'http://cran.rstudio.org'),
                  type = 'source')
 install_github('jimhester/knitrBootstrap')
+```
+
+To knit an Rmd file to use with bootstrap in order to generate the html report as shown in the project report please do something like this from rstudio:
+
+```
+knit_bootstrap('mtcars.Rmd')
+options(rstudio.markdownToHTML =
+            function(inputFile, outputFile) {
+                require(knitrBootstrap)
+                knit_bootstrap_md(input=inputFile, output=outputFile)
+            }
+)
 ```
 
 ## Project Goal 
